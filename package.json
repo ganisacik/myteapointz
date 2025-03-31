@@ -1,12 +1,13 @@
 {
-  "name": "myteapointz",
+  "name": "tea-project",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "A sample npm project for Tea Protocol",
+  "main": "index.mjs",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.mjs"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": ""
+  "dependencies": {
+    "chalk": "^5.4.1"
+  }
 }
